@@ -14,7 +14,7 @@ https://notes-app-frontend7.s3.ap-south-1.amazonaws.com/index.html
 
 ---
 
-## 🏗️ Architecture Overview
+##  Architecture Overview
 
 **Frontend**
 - Static single-page application built with **plain HTML, CSS, and vanilla JavaScript**
@@ -32,7 +32,7 @@ https://notes-app-frontend7.s3.ap-south-1.amazonaws.com/index.html
 
 ---
 
-## 🔄 Data Flow
+##  Data Flow
 
 1. User interacts with the frontend hosted on S3  
 2. Frontend sends HTTP requests to API Gateway  
@@ -43,7 +43,7 @@ https://notes-app-frontend7.s3.ap-south-1.amazonaws.com/index.html
 
 ---
 
-## ✨ Key Features
+##  Key Features
 
 - Full CRUD functionality:
   - Create notes
@@ -60,7 +60,7 @@ https://notes-app-frontend7.s3.ap-south-1.amazonaws.com/index.html
 
 ---
 
-## 🧠 Design Decisions & Evolution
+##  Design Decisions & Evolution
 
 This project intentionally evolved beyond a naive CRUD implementation:
 
@@ -93,7 +93,7 @@ This project intentionally evolved beyond a naive CRUD implementation:
 
 ---
 
-## 🔐 Security Considerations
+##  Security Considerations
 
 - IAM role follows **principle of least privilege**
 - Lambda can access **only** the required DynamoDB table and its indexes
@@ -105,7 +105,7 @@ This project intentionally evolved beyond a naive CRUD implementation:
 
 ---
 
-## 💰 Cost Awareness
+##  Cost Awareness
 
 - Fully serverless architecture (no always-on resources)
 - Designed to remain within the **AWS Free Tier**
@@ -114,7 +114,7 @@ This project intentionally evolved beyond a naive CRUD implementation:
 
 ---
 
-## 🧪 Error Handling & Observability
+##  Error Handling & Observability
 
 - Clear distinction between client errors (400), not found (404), and server errors (500)
 - Structured logging in Lambda
@@ -123,7 +123,7 @@ This project intentionally evolved beyond a naive CRUD implementation:
 ---
 
 
-## 🚀 Possible Improvements
+##  Possible Improvements
 
 - Add authentication using Amazon Cognito
 - Add pagination to list endpoints
@@ -132,14 +132,14 @@ This project intentionally evolved beyond a naive CRUD implementation:
 
 ---
 
-## 👤 Author
+##  Author
 
 Arun  
 B.Sc. IT Graduate | AWS & Backend Enthusiast
 
 ---
 
-## 📌 Final Notes
+##  Final Notes
 
 This project focuses on **correct architecture, clean API design, proper DynamoDB access patterns, and realistic trade-offs**, rather than overengineering.  
 It is intended to demonstrate practical AWS fundamentals in a production-like serverless application.
